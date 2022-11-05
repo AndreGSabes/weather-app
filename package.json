@@ -1,7 +1,7 @@
 {
   "name": "weather-app",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0",
+  "private": false,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@mantine/core": "^5.7.0",
+    "@mantine/hooks": "^5.7.0",
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
     "@types/react-dom": "18.0.8",
